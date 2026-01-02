@@ -100,5 +100,7 @@ if __name__ == '__main__':
 print(f"DEBUG: Group {group_id}, posts: {len(posts)}")
 print(f"DEBUG: New post ID {post_id}, text: {post_text[:50]}")
 print(f"DEBUG: Sending to chat_id {chat_id}")
-# В функции проверки групп, ДО "Пусто":
-print(f"DEBUG Group {group_id}: {len(posts)} posts, IDs: {[p['id
+# В vk_bot.py найди цикл групп, добавь:
+print(f"DEBUG Group {group_id}: {len(posts)} posts found")
+if posts:
+    print(f"DEBUG New post ID: {posts[0]['id']}, text: {posts[0].get('text', '')[:50]}")
