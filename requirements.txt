@@ -1,6 +1,4 @@
-vk_api==11.9.4
-aiogram==3.4.1
-requests==2.31.0
-python-dotenv==1.0.0
+telebot==6.7.1
+vk_api==11.9.4  
 configparser==6.0.0
-aiohttp==3.9.3
+requests==2.31.0
