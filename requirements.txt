@@ -1,4 +1,4 @@
-telebot==6.7.1
-vk_api==11.9.4  
-configparser==6.0.0
-requests==2.31.0
+pyTelegramBotAPI
+vk_api
+configparser
+requests
