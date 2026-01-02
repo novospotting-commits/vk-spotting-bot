@@ -100,3 +100,5 @@ if __name__ == '__main__':
 print(f"DEBUG: Group {group_id}, posts: {len(posts)}")
 print(f"DEBUG: New post ID {post_id}, text: {post_text[:50]}")
 print(f"DEBUG: Sending to chat_id {chat_id}")
+# В функции проверки групп, ДО "Пусто":
+print(f"DEBUG Group {group_id}: {len(posts)} posts, IDs: {[p['id
