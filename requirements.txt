@@ -1,2 +1,6 @@
-vk-api==11.9.9
-pyTelegramBotAPI==4.23.0
+vk_api==11.9.4
+aiogram==3.4.1
+requests==2.31.0
+python-dotenv==1.0.0
+configparser==6.0.0
+aiohttp==3.9.3
